@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>javascript</title>
+<script type="text/javascript">
+    var nota1=parseInt(prompt("Primer nota"));
+	var nota2=parseInt(prompt("Segunda nota"));
+	var nota3=parseInt(prompt("Tercera nota"));
+	resultado = nota1+nota2+nota3;
+	total = resultado/3;
+	document.write("Su Promedio es: "+total.toFixed(2)+"<br>");
+	if (total>=95) {
+		document.write("Excelente");
+	}
+		else
+			if (total>=80) {
+		    document.write("Muy Bien");
+		}
+		else
+			if (total>=70) {
+		    document.write("Puedes Mejorar");
+		}
+		    else
+				if (total>=50) {
+		   		document.write("Aplazo");
+		   	}
+		   		else
+		   			if (total<50) {
+		   			document.write("Reprobo");
+
+	}
+	</script>
+	</head>
+	<body>
+	</body>
+	</html>
+
+

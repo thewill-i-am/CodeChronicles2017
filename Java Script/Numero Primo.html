@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>javascript</title>
+<script type="text/javascript">
+var vec=new Array(10),a=0,c=0;
+function numeroAleatorio(min, max) {
+	var num = Math.round(Math.random() * (max - min)+min);
+	return num;
+	}
+	for(i=0;i<vec.length;i++){
+		vec[i]=numeroAleatorio(20,30);
+		document.write(vec[i]+"<br>");
+	}
+		for(i=0;i<vec.length;i++){
+			for(j=0;j<=vec[i];j++){
+				if (vec[i] % j==0){
+				a=a+1;
+			}
+		}
+		if (a==2){
+			c=c+1;
+		}
+		a=0;
+	}
+	document.write("<br> hay"+c+"numeros Primos");
+		
+	</script>
+	</head>
+	<body>
+	</body>
+	</html>

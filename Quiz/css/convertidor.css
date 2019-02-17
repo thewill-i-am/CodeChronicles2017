@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body{
+	background: black;
+}
+@font-face{
+		font-family: mia2;
+		src: url('texto/pre.otf');
+	}
+#cabecera{
+	font-family: 'mia2', cursive;
+	width: 100%;
+	background: #FFB13F;
+	text-align: center;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 8px;
+	float: left;
+	color: #00AE7E;
+}
+
+#caja{
+		width: 500px;
+		text-align: center;
+		margin: 15px auto;
+		padding: 15px;
+		border: 3px grey; 
+		border-radius: 10px;
+		background: #015C69;
+	}
+#n1{
+	width: 95%;
+	background: #A9BAB9;
+	text-align: center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid grey;
+	border-radius: 10px;
+	color: #000000;
+}
+#n2{
+	width: 95%;
+	background: #D3F889;
+	text-align: center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid grey;
+	border-radius: 10px;
+	color: #000000;
+}
+
+#lala{
+		width: 500px;
+		text-align: center;
+		margin: 15px auto;
+		padding: 15px;
+		border: 3px solid grey; 
+		border-radius: 10px;
+		background: #D20F00;
+	
+}

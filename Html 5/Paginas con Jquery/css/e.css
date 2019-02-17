@@ -1,0 +1,155 @@
+@font-face{
+	font-family:Mifuente;
+	src:url('../Texto/Montserrat-Regular.otf');
+}
+body{
+  width: auto;
+  background-color:#221
+}
+#resul{
+  font: bold  21px Mifuente;
+	margin:110px auto;
+	width:600px;
+	background:#dbdb05;
+	text-align:center;
+	padding: 15px;
+	border: 3px color:#900;
+	border-radius:10px;
+	color:#900;
+}
+#resul2{
+  font: bold  21px Mifuente;
+  margin:110px auto;
+  width:600px;
+  background:#dbdb05;
+  text-align:center;
+  padding: 15px;
+  border: 3px color:#900;
+  border-radius:10px;
+  color:#900;
+}
+#resul3{
+  font: bold  21px Mifuente;
+  margin:110px auto;
+  width:600px;
+  background:#dbdb05;
+  text-align:center;
+  padding: 15px;
+  border: 3px color:#900;
+  border-radius:10px;
+  color:#900;
+}
+button{
+		color:#900;
+		font: bold  21px Mifuente;
+		background:#221;
+		border:4px color:#900;
+    margin: 15px auto;
+  	padding: 15px;
+
+}
+input{
+  color:#900;
+  font: bold  21px Mifuente;
+    background:#221;
+    text-align:center;
+    margin: 15px auto;
+    padding: 15px;
+
+}
+#caja{
+	color:#900;
+	font: bold  21px Mifuente;
+		background:#221;
+    text-align:center;
+    margin: 15px auto;
+  	padding: 15px;
+       color:#900;
+    font: bold  21px Mifuente;
+    background:#221;
+    border:4px color:#900;
+    margin: 15px auto;
+    padding: 15px;
+}
+#cabeza{
+  color:#900;
+  font: bold  21px Mifuente;
+  background:#221;
+  border:4px color:#900;
+  text-align:center;
+
+}
+#resul4{
+  font: bold  21px Mifuente;
+  margin:110px auto;
+  width:600px;
+  background:#dbdb05;
+  text-align:center;
+  padding: 15px;
+  border: 3px color:#900;
+  border-radius:10px;
+  color:#900;
+}
+h1{
+  font: bold  21px Mifuente;
+  color:#900;
+}
+#menu_principal{
+  font: bold  21px Mifuente;
+  width:750px;
+  margin:auto;
+  margin-top: 80px; 
+}
+@font-face{
+  font-family:Mifuente;
+  src:url('../Texto/Montserrat-Regular.otf');
+}
+body{
+width: auto;
+  background-color:#221
+}
+li{
+  font: bold  21px Mifuente;
+  float:left;
+  width: 200px;
+  list-style: none;
+  margin: 0 10px;
+  text-align:center;
+  border:solid 2px #000;
+}
+li a {
+  font: bold  21px Mifuente;
+  border: 2px thin;
+  display:block;
+  font-size:24px;
+  color:#221;
+  font-weight:bold;
+  padding:10px 30px;
+  text-decoration:none;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%, #2989d8), color-stop(51%,#207cca), color-stop(100%,#7bd9e9));
+
+}
+#submenu2{
+  font: bold  21px Mifuente;
+  position: absolute;
+  left: 530px;
+  top: 136px;
+  width: 200px;
+  height: 131px;
+  z-index: 1;
+}
+#submenu3{
+   font: bold  21px Mifuente;
+  position: absolute;
+  left: 760px;
+  top: 136px;
+  width: 200px;
+  height: 131px;
+  z-index: 1;
+}
+.sub a{
+  font: bold  21px Mifuente;
+  color:#900;
+  background:-webkit-gradient(linear, left top, left bottom,
+  color-stop(0%,#58b724), color-stop(50%,#6fd868),color-stop(100%, #ace2b8));
+}

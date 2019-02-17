@@ -1,0 +1,68 @@
+body{
+	background:#33e;
+}
+@font-face{
+	font-family:Mifuente;
+	src:url("../Texto/Rainbow Bridge Personal Use.ttf");
+}
+h1{
+	font: normal 2.4em verdana sans serif;
+	background:-webkit-linear-gradient(top, #00f, #f09);
+	width:35%;
+	border-radius:10px;
+	margin:15px auto;
+	text-align:center;
+	padding:15px;
+	color:#FFF;
+	box-shadow:#00E 5px 5px 10px;
+	text-shadow:#f00 2px 2px 3px;  
+}
+h2{
+	background: #334;
+	font:bold 1.7em verdana;
+	margin:0;
+	padding: 5px 0 5px 0px;
+	color:#000;
+}
+section{
+	width: 100%;
+	border-top:2px dashed #ff1;
+	margin:1px auto;
+	background: #f22; 
+}
+figure{
+	float: left;
+	margin-left:4px; 
+}
+figure img{
+	padding: 4px;
+	background:#666;
+	border-radius:20px;
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+}
+figure img:hover{
+	-webkit-transform: scale(1.2);
+}
+figcaption{
+	font-family:Arial;
+	font-family:1em;
+	text-align: center;
+}
+footer{
+	clear:both;
+	margin-top:100px; 
+}
+footer p{
+	font: 1.3em verdana;
+	color:#009;
+	margin:10px 11px;
+}
+
+#letra{
+	font: 20px Mifuente;
+	text-shadow:#f09;
+	color:rgba(0,879,909,0.5);
+	background:-webkit-linear-gradient(top, #0ff, #f09);
+	width:99%;
+	border-radius:10px;
+}

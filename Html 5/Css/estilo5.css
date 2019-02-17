@@ -1,0 +1,168 @@
+body{
+		width:100%;
+	background:url("../imagenes/Fondo1.jpg");
+}
+#contenido{
+	font: bold  21px 'Arial';
+	width:100%;
+	background:#f90;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	float:left;
+	color:#2de;
+
+}
+p{
+	font: bold  21px 'Arial';
+	width:100%;
+	background:#f90;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	float:left;
+	color:#2de;
+}
+figure{
+	float: left;
+	margin-left:3px;
+}
+@font-face{
+	font-family:Mifuente;
+	src:url('../Texto/Rainbow Bridge Personal Use.ttf');
+}
+@font-face{
+font-family:dragon_alphabet;
+src:url('Texto/dragon_alphabet.ttf');
+}
+#cabecera{
+	font: bold  21px Mifuente;
+	width:100%;
+	background:#f90;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	float:left;
+	color:#2de;
+}
+#navega{
+	background-color:#559
+}
+#barra{
+	background-color:#900;
+	float: left;
+	height: 910px;
+}
+#contenido{
+	background-color:#099;
+	margin-left:210px;
+	padding-left:15px;
+	padding-top:15px;
+	font:13px Mifuente;
+}
+#Pie{
+	background-color:#554;
+	clear:both;
+	margin-top: 100px;
+}
+li{
+	background-color:#97E;
+	display:inline;
+}
+img{
+	padding:5px;
+	background:#666;
+	border-radius:20px;
+	-webkit-transition:-webkit-transition 0.3s ease-in-out 0.1s;
+	box-shadow:#900 5px 10px 10px;
+}
+img:hover{
+	-webkit-transform: scale(1.2);
+}
+label{
+	text-align:center;
+}
+h1{
+		font: bold  21px Mifuente;
+		text-align:center;
+		color:#2de;
+
+}
+input{
+	font: bold  21px 'Arial';
+	width:100%;
+	background:#f90;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	color:#2de;
+
+}
+#raiz{
+	font: bold  21px 'Arial';
+	width:100%;
+	background:#f90;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	float:left;
+	color:#2de;
+	text-align:center;
+	margin: 15px auto;
+
+}
+button{
+	font: bold  21px 'Arial';
+	width:50%;
+	background:#aaa;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	color:#2de;
+}
+#lol{
+	margin: 15px auto;
+	font: bold  21px 'Arial';
+	width:50%;
+	background:#aaa;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	color:#2de;
+}
+#raiz{
+	font: bold  21px 'Arial';
+	width:100%;
+	background:#f90;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	float:left;
+	color:#2de;
+	text-align:center;
+	margin: 15px auto;
+	}

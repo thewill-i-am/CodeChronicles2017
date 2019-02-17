@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Trabajando con Jquery</title>
+<script type="text/javascript" src="JS/tienda.js"></script>
+<script src="jquery/jquery-3.2.1.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("label").hide();
+	});
+</script>
+<link rel="stylesheet" href="css/estilo3.css">
+<style>
+.bot{
+	font: bold  21px 'Arial';
+	width:100%;
+	background:#f90;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	float:left;
+	color:#2de;
+}
+.bot:hover{
+		font: bold  21px 'Arial';
+	width:100%;
+	background:#00a;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	float:left;
+	color:#f90;
+}
+#bot1{
+		font: bold  21px 'Arial';
+	width:100%;
+	background:#f90;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	float:left;
+	color:#2de;
+}
+#bot1:hover{
+	font: bold  21px 'Arial';
+	width:100%;
+	background:#f90;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid red;
+	border-radius:10px;
+	box-shadow:#55f 8px 2px 2px;
+	float:left;
+	color:#2de;
+}
+	img{
+		margin:1% 5%;
+	}
+</style>
+</head>
+
+<body>
+	<header id="cabecera">
+		<h1>La tienda </h1>
+			</header>
+		<input type="text" class="bot" id="n1" onclick="vaciar()">
+	<br>
+	<figure>
+	<img src="Imagenes/descarga.jpg" width="300px" height="150px">
+	<figcaption>
+	<p>Esto vale 1000</p>
+	<input type="button" class="bot" onclick="imp(1000)"id="uno" value="Añadir al Carrito"> </button>
+	</figcaption>
+	</figure>
+
+		<figure>
+		<img src="Imagenes/CACTUS.jpg" width="300px" height="150px">
+		<figcaption>
+		<p>Esto vale 2000</p>
+		<input type="button"  class="bot" onclick="imp1(2000)"id="dos" value="Añadir al carrito" > </input>
+		</figcaption>
+	</figure>
+		<figure>
+		<img src="Imagenes/chiles.jpg" width="300px" height="150px">
+		<figcaption>
+		<p>Esto vale 3000</p>
+		<input type="button" class="bot" onclick="imp2(3000)"id="tres" value="Añadir al Carrito">  </input>
+		</figcaption>
+	</figure>
+		<figure>
+		<img src="Imagenes/nachos.jpg" width="300px" height="150px">
+		<figcaption>
+		<p>Esto vale 4000</p>
+			<input type="button" class="bot" onclick="imp3(4000)"id="cuatro" value="Añadir al Carrito">  </input>
+		</figcaption>
+		</figure>
+		<figure>
+		<img src="Imagenes/taco_17.jpg" width="300px" height="150px">
+		<figcaption>
+		<p>Esto vale 5000</p>
+		<input type="button" class="bot" onclick="imp4(5000)"id="cinco" value="Añadir al Carrito"> </input>
+		</figcaption>
+		</figure>
+
+
+
+	<button class="bot" onclick="Carrito()"> Comprar </button>
+	<label id="res"> </label>
+				<label id="cmt"> </label>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Imagenes</title>
+	<style>
+		img{
+			opacity:0.5;
+		}
+	</style>
+	<script src="jquery/jquery-3.2.1.min.js"></script> 
+	<script>
+		$(document).ready(function(){
+
+			$("#imagen").click(function(){
+				$(this).animate({marginLeft:"+=100px"},1000);
+			})
+		});
+	</script>
+</head>
+<body>
+	<img src="Imagenes/chiles.jpg" width="300px" height="200px" id="imagen">
+</body>
+</html>

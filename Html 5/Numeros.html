@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Detectar Mouse</title>
+<script type="text/javascript">
+var cifra="";
+var cierto=true;
+function vaciar (){
+	document.getElementById('n1').value="";
+}
+function imp(num1){
+	document.getElementById('n1').value=cifra+num1;
+	cifra=document.getElementById("n1").value;
+	if(cierto){
+		document.getElementById("uno").value="Usado";
+		cierto=false;
+	}
+	else{
+		document.getElementById("uno").value = 1;
+		cierto=true;
+		}	
+	}
+	function imp(esto) {
+		document.getElementById('n1').value=cifra+2;
+		cifra=document.getElementById("n1").value;
+			esto.value+"Ya diste click";
+		 		esto.disabled=true;
+	}
+</script>
+<style>
+.bot{
+	background:#91C6F9;
+}
+.bot:hover{
+	background:#3ED32E;
+}
+#bot1{
+	background:#9ACD32;
+}
+#bot1:hover{
+	background:#008000;
+}
+
+
+</style>
+</head>
+
+<body>
+	Numero:
+	<input type="text" id="n1" onclick="vaciar()">
+	<br>
+	<input type="button" class="bot" onclick="imp(1)" id="uno" value="1"></button>
+	<input type="button" class="bot" onclick="imp1(this)" id="dos" value="2"></button>
+	<br>
+	<br>
+	<br>
+	<br>
+</body>
+
+</html>

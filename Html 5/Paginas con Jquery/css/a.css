@@ -1,0 +1,27 @@
+.linkinforma{
+	color:#050;
+	font-weight: bold;
+	margin-left: 25px;
+}
+.linkdestacacursos{
+	color:#f00;
+	font-weight: bold;
+	margin-left: 25px;
+}
+a{
+	display: block;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+table{
+	text-align:center;
+}
+#s{
+	position:absolute;
+	font-size:36px;
+	color:red; 
+	left:31px;
+	top: 65px;
+	width:400px;
+	padding-top:100px;
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Desplegar ventana</title>
+
+<meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0,minimun-scale=1.0">
+<link href="https://file.myfontastic.com/gs6QvqPWEnLKN43FeLZdW4/icons.css" 
+rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/stilmenu.css">
+<link rel="stylesheet" type="text/css" href="css/stilcarrusel.css">
+<script src="jquery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/menunuevo.js"></script>
+<script type="text/javascript" src="js/desplegar.js"></script>
+
+<style>
+
+
+
+	body{
+		background: url("imagenes/descarga.jpg");
+
+	}
+	#login3 {
+	width: 100px;
+	float:left;
+	left: 500px;
+	top: 66px;
+	z-index: 100;
+}
+
+#login2 {
+	width: 100px;
+	float:right;
+	left: 500px;
+	top: 66px;
+	z-index: 100;
+}
+#login {
+	width: 400px;
+	position: absolute;
+	left: 500px;
+	top: 66px;
+	z-index: 100;
+}
+#abierto3 {
+	margin: 0;
+	cursor: pointer;
+	background: rgb(255,255,255)  url(imagenes/Mas.jpg) no-repeat 5px 4px;
+	color: rgb(58,80,123);
+	padding: 5px 0 2px 30px;
+}
+#abierto2 {
+	margin: 0;
+	cursor: pointer;
+	background: rgb(255,255,255)  url(imagenes/Mas.jpg) no-repeat 5px 4px;
+	color: rgb(58,80,123);
+	padding: 5px 0 2px 30px;
+}
+#abierto {
+	margin: 0;
+	cursor: pointer;
+	background: rgb(255,255,255)  url(imagenes/Mas.jpg) no-repeat 5px 4px;
+	color: rgb(58,80,123);
+	padding: 5px 0 2px 30px;
+}
+#login2 .cerrado2 {
+	background-image:url(imagenes/Menos.jpg);
+	background-color: rgb(110,138,195);	
+}
+#login .cerrado {
+	background-image:url(imagenes/Menos.jpg);
+	background-color: rgb(110,138,195);	
+}
+
+#abierto:hover {
+	color: rgb(0,0,0);
+	background-color: rgb(110,138,195);	
+}
+
+#login form {
+	padding: 10px 10px 10px 10px;
+	display: none;
+	background-color: rgb(255,255,255);
+}
+#login label {
+	display: inline-block;
+	width: 100px;
+	text-align:center;
+	margin: 0 15px 0 0;
+	color: rgb(58,80,123);
+}
+#login input {
+	font-size: 14px;	
+}
+#login #boton {
+	margin-left: 50px;	
+}
+#login2 form {
+	padding: 10px 10px 10px 10px;
+	display: none;
+	background-color: rgb(255,255,255);
+}
+#login2 label {
+	display: inline-block;
+	width: 100px;
+	text-align:center;
+	margin: 0 15px 0 0;
+	color: rgb(58,80,123);
+}
+#login2 input {
+	font-size: 14px;	
+}
+#login2 #boton {
+	margin-left: 50px;	
+}
+#login3 input {
+	font-size: 14px;	
+}
+#login3 #boton {
+	margin-left: 50px;	
+}
+#login3 form {
+	padding: 10px 10px 10px 10px;
+	display: none;
+	background-color: rgb(255,255,255);
+}
+#login3 label {
+	display: inline-block;
+	width: 100px;
+	text-align:center;
+	margin: 0 15px 0 0;
+	color: rgb(58,80,123);
+}
+#login3 input {
+	font-size: 14px;	
+}
+#login3 #boton {
+	margin-left: 50px;	
+}
+html , body{
+	line-height: 1;
+	background-color:#006;
+	
+}
+
+</style>
+
+
+</head>
+</head>
+<body>
+	<header>
+		<div class="menu_bar">
+			<a href="#" class="bt_menu"><span class="icon-menu"></span>Menu</a>
+		</div>
+
+		<nav>
+		<span id="logo"><img src="imagenes/Menu.png" width=50px height="40px"></span>
+			<ul>
+			<li><a href="Index.html"><span class="icon-home-1">
+				</span>Inicio</a></li>
+				<li><a href="Economia.html"><span class="icon-briefcase">
+				</span>Economía</a></li>
+				<li><a href="AD.html"><span class="icon-spinner">
+				</span>A o D</a></li>
+				<li><a href="Hover.html"><span class="icon-server">
+				</span>Hover</a></li>
+				<li><a href="Ventana.html"><span class="icon-contao">
+				</span>Ventana</a></li>
+				<li><a href="Consejo.html"><span class="icon-contao">
+				</span>Consejo</a></li>
+
+
+			</ul>
+		</nav>
+	</header>
+
+
+
+<body>
+<div id="login">
+<p id="abierto">Lorem</p>
+<form>
+	<p>
+		<label for="username">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</label>
+	</p>
+	<p>
+		<label for="password">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</label>
+	</p>
+</form>
+</div>
+
+<div id="login2">
+<p id="abierto2">Lorem</p>
+<form>
+	<p>
+		<label for="username2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</label>
+	</p>
+	<p>
+		<label for="password2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</label>
+	</p>
+</form>
+</div>
+
+<div id="login3">
+<p id="abierto3">Lorem</p>
+<form>
+	<p>
+		<label for="username">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</label>
+	</p>
+	<p>
+		<label for="password">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</label>
+	</p>
+</form>
+</div>
+<footer id="pieprincipal">
+		<br>
+		<small>Todos los derechos reservados © 2017 Cedes Don Bosco</small>
+		<address>Telefono:(506) 2275-0031</address>
+	</footer>
+
+	</body>
+	</html>
+

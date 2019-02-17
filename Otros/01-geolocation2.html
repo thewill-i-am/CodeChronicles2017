@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>API Basico para geolocalizacion</title>
+
+    <style>
+        html, body {
+        width: 100%;
+        height: 100%;
+    }
+    #map_canvas {
+        height: 85%;
+        width: 90%;
+		margin:10px auto;
+    }
+    </style>
+
+<script src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+
+<script>
+// Determinar geolocalizacion
+if (navigator.geolocation) {
+    // Localizar posicion
+    navigator.geolocation.getCurrentPosition(displayPosition, 
+	errorFunction);
+} else {
+    alert('Parece que la Geolocalización, necesaria para esta página, no está habilitada en tu navegador. Utilice un navegador que lo admita.');
+}
+
+// Función de devolución de llamada de éxito
+function displayPosition(pos) {
+    var mylat = pos.coords.latitude;
+    var mylong = pos.coords.longitude;
+    var thediv = document.getElementById('locationinfo');
+    thediv.innerHTML = '<p>Su longitud es :' +
+        mylong + ' y su  latitud es ' + mylat + '</p>';
+
+//Cargar Google Map
+var latlng = new google.maps.LatLng(mylat, mylong);
+    var myOptions = {
+      zoom: 15,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+   
+var map = new google.maps.Map(document.getElementById
+("map_canvas"), myOptions);
+
+//Agregar marcador
+var marker = new google.maps.Marker({
+	     position: latlng, 
+	     map: map, 
+	     title:"Estas aqui"
+	 });
+}
+
+// Error callback function
+function errorFunction(pos) {
+    alert('Error!');
+}
+</script>
+</head>
+
+<body>
+    <div id="map_canvas"></div>
+    <div id="locationinfo"></div>
+</body>
+</html>

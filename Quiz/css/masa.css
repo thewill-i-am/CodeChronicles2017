@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+body{
+	background: white;
+}
+@font-face{
+		font-family: mia2;
+		src: url('texto/pre.otf');
+	}
+#titulo{
+	font-family: 'mia2', cursive;
+	width: 100%;
+	background: grey;
+	text-align: center;
+	margin: 10px auto;
+	padding: 1px;
+	border-radius: 8px;
+	color: black;
+}
+
+#caja{
+		width: 600px;
+		text-align: center;
+		margin: 40px auto;
+		padding: 5px;
+		border: 3px grey; 
+		border-radius: 10px;
+		background: #015C69;
+	}
+	#caja2{
+		width: 500px;
+		text-align: center;
+		margin: 15px auto;
+		padding: 10px;
+		border: 3px solid grey; 
+		border-radius: 10px;
+		background:#D3F889 ;
+	
+}
+#caja3{
+		width: 500px;
+		text-align: center;
+		margin: 15px auto;
+		padding: 15px;
+		border: 3px solid grey; 
+		border-radius: 10px;
+		background:#D3F889 ;
+	
+}
+
+#n1{
+	width: 95%;
+	background: #A9BAB9;
+	text-align: center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px orange;
+	border-radius: 10px;
+	color: #000000;
+}
+#n2{
+	width: 95%;
+	background: #D3F889;
+	text-align: center;
+	margin: 15px auto;
+	padding: 15px;
+	border: 3px solid grey;
+	border-radius: 10px;
+	color: #000000;
+}
+
+}

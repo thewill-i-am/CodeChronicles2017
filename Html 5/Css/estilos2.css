@@ -1,0 +1,59 @@
+body{
+	background:url("../imagenes/Fon.jpg");
+}
+@font-face{
+	font-family:Mifuente;
+	src:url('../Texto/Rainbow Bridge Personal Use.ttf');
+}
+@font-face{
+font-family:dragon_alphabet;
+src:url('Texto/dragon_alphabet.ttf');
+}
+#cabecera{
+	font: bold  21px Mifuente;
+	width:100%;
+	background:#221;
+	text-align:center;
+	margin: 15px auto;
+	padding: 15px;
+	border-radius:10px;
+	float:left;
+	color:#900;
+	border:4px color:#900;
+}
+#cuadro{
+	font: bold  21px Mifuente;
+		margin:300px auto;
+		width:700px;
+	background:#221;
+	text-align:center;
+	padding: 15px;
+	border: 3px;
+	border-radius:10px;
+	color:#900;
+	border:4px color:#900;
+
+}
+#resul{
+	font: bold  21px 'Arial';
+	margin:-260px auto;
+	width:600px;
+	background:#221;
+	text-align:center;
+	padding: 15px;
+	border: 3px color:#900;
+	border-radius:10px;
+	color:#900;
+}
+button{
+		color:#900;
+		font: bold  21px Mifuente;
+		background:#221;
+		border:4px color:#900;
+}
+input{
+	color:#900;
+		font: bold  21px 'Arial';
+		background:#221;
+		border:4px color:#900;
+}

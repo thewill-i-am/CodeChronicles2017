@@ -1,0 +1,92 @@
+@font-face{
+	font-family:Mifuente;
+	src:url('../Texto/Rainbow Bridge Personal Use.ttf');
+}
+body{
+  width: auto;
+  background-color:#221
+}
+#resul{
+  font: bold  21px Mifuente;
+	margin:110px auto;
+	width:600px;
+	background:#dbdb05;
+	text-align:center;
+	padding: 15px;
+	border: 3px color:#900;
+	border-radius:10px;
+	color:#900;
+}
+#resul2{
+  font: bold  21px Mifuente;
+  margin:110px auto;
+  width:600px;
+  background:#dbdb05;
+  text-align:center;
+  padding: 15px;
+  border: 3px color:#900;
+  border-radius:10px;
+  color:#900;
+}
+#resul3{
+  font: bold  21px Mifuente;
+  margin:110px auto;
+  width:600px;
+  background:#dbdb05;
+  text-align:center;
+  padding: 15px;
+  border: 3px color:#900;
+  border-radius:10px;
+  color:#900;
+}
+button{
+		color:#900;
+		font: bold  21px Mifuente;
+		background:#221;
+		border:4px color:#900;
+    margin: 15px auto;
+  	padding: 15px;
+
+}
+input{
+  color:#900;
+  font: bold  21px Mifuente;
+    background:#221;
+    text-align:center;
+    margin: 15px auto;
+    padding: 15px;
+
+}
+#caja{
+	color:#900;
+	font: bold  21px Mifuente;
+		background:#221;
+    text-align:center;
+    margin: 15px auto;
+  	padding: 15px;
+       color:#900;
+    font: bold  21px Mifuente;
+    background:#221;
+    border:4px color:#900;
+    margin: 15px auto;
+    padding: 15px;
+}
+#cabeza{
+  color:#900;
+  font: bold  21px Mifuente;
+  background:#221;
+  border:4px color:#900;
+  text-align:center;
+
+}
+#resul4{
+  font: bold  21px Arial;
+  margin:110px auto;
+  width:600px;
+  background:#dbdb05;
+  text-align:center;
+  padding: 15px;
+  border: 3px color:#900;
+  border-radius:10px;
+  color:#900;
+}

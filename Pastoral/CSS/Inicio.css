@@ -1,0 +1,145 @@
+.Inicio_bar{
+	display: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #A9E2F3;
+}
+section img{
+	margin-left: 530px;
+}
+header{
+	width: 100%;
+	z-index:1000;
+	position:fixed;
+	background:#343434;
+}
+header nav{
+	width: 95%;
+	margin: 1px auto;
+	background: #2F4F4F;
+	padding:2px;
+}
+.Inicio_Bar{
+	display:none;
+}
+header nav ul{
+	list-style: none;
+	margin-left:300px;
+}
+.children{
+	margin-left:0px;
+}
+header nav ul li{
+	display:inline-block;
+	position:relative;
+}
+header nav ul li a{
+	color: #fff;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+header nav ul li span{
+	margin-right: 15px;
+}
+header nav ul li a:hover{
+	background: blue;
+}
+img{
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+	float:center;
+}
+section{
+	margin-top: 5px;
+	padding: 80px;
+}
+p{
+	margin-top:10px;
+}
+#Titulo{
+	color:#900;
+	background:#fff; 
+}
+header nav ul li:hover .children{
+	display:block;
+}
+header nav ul li .children{
+	display:none;
+	background:#011826;
+	position:absolute;
+	width:150%;
+	z-index:1000;
+}
+header nav ul li .children li{
+	display:block;
+}
+header nav ul li .children a{
+	display:block;
+}
+header nav ul li .caret{
+	position:relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+@media screen and (max-width:800px){
+	body{
+		padding-top:70px;
+	}
+	header nav{
+		width:70%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position:fixed;
+	}
+	header nav ul{
+		margin-left:5px;
+	}
+	header nav ul li{
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255,.3);
+	}
+	header nav ul li a{
+		display:block;
+	}
+	header nav ul li .children{
+		width:100%;
+		position:relative;
+	}
+	header nav ul li .caret{
+		float:right;
+	}
+	.Inicio_Bar{
+		display:block;
+		width:100%;
+		background:#CCC;
+		position:fixed;
+		top:0;
+	}
+	.Inicio_Bar .bt_inicio{
+		display:block;
+		padding:20px;
+		background:#025959;
+		color:#FFF;
+		text-decoration:none;
+		font-weight:bold;
+		font-size:25px;
+	}
+	.Inicio_Bar span{
+		float:right;
+		font-size:40px;
+	}
+}
+#pieprincipal{
+	background: black;
+	color: white;
+	width: 1365px;
+	height: 68px;
+	float:center;
+}

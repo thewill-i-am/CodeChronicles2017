@@ -1,0 +1,100 @@
+#menu_principal{
+	width: 750px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+li{
+	float: left;
+	width: 200px;
+	list-style: none;
+	margin: 0 10px;
+	text-align: center;
+	border: solid 2px #000;
+}
+
+li a{
+	display: block;
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+	padding: 10px 30px;
+	text-decoration: none;
+	background: -webkit-gradient(linear, left top, left bottom,
+	color-stop(0%, #1e5799), color-stop(50%,#2989d8),
+	color-stop(51%, #207cca), color-stop(100%, #7db9e8));
+}
+
+#submenu2{
+	position: absolute;
+	left: 492px;
+	top: 55px;
+	width: 200px;
+	height: 131px;
+}	
+
+#submenu3{
+	position: absolute;
+	left: 758px;
+	top: 71px;
+	width: 200px;
+	height: 131px;
+}
+
+.sub a{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #58b724), color-stop(50%,#6fd868), color-stop(100%, #ace2b8)); 
+
+}
+
+#submenu4{
+	position: absolute;
+	left: 574px;
+	top: 850px;
+	width: 200px;
+	height: 131px;
+}
+
+#submenu5{
+	position: absolute;
+	left: 574px;
+	top: 550px;
+	width: 200px;
+	height: 131px;
+}
+
+#submenu6{
+	position: absolute;
+	left: 574px;
+	top: 530px;
+	width: 200px;
+	height: 131px;
+}
+
+
+#submenu7{
+	position: absolute;
+	left: 574px;
+	top: 540px;
+	width: 200px;
+	height: 131px;
+}
+
+#submenu8{
+	position: absolute;
+	left: 574px;
+	top: 700px;
+	width: 200px;
+	height: 131px;
+}
+
+#submenu9{
+	position: absolute;
+	left: 574px;
+	top: 830px;
+	width: 200px;
+	height: 131px;
+}
+
+body{
+	background: black;
+}
