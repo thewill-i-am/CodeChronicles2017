@@ -1,2 +1,1 @@
-# Proyectos_Decimo_William
-Proyectos realizados en 2017 por William Aguilar
+This repository contains a collection of projects and code that were created in 2017. The code includes programs written in C, C++, basic Javascript, HTML, and CSS. These projects were created as a part of my learning and development process at that time, and serve as a record of my progress. This repository is intended to serve as a historical record and reference point for my past work.
